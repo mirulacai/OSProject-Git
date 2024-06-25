@@ -5,9 +5,9 @@ Group Name: __Git__
 Section: __2__
 
 Team Mates:
-1. __Aiman Nabil Bin Johan__ and __2210205__
-2. __Aliff Azmeer Hakim Bin Azmin__ and __2217777__
-3. __Amirul Hilmi Bin Hanizam__ and __2218665__
+1. __Aiman Nabil Bin Johan__ __2210205__
+2. __Aliff Azmeer Hakim Bin Azmin__ __2217777__
+3. __Amirul Hilmi Bin Hanizam__ __2218665__
 
 ## Rules
 1. You are allowed to have **3 group** members. *Exception* is allowed **IFF (if and only if)** you are allowed to have 4 group members if you are a **multinational** or a **multigender** group. 
