@@ -24,7 +24,10 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork OSProject in your repository. ***(1 mark)*** __(https://github.com/aimannab10/OSProject-Git/blob/main/README.md)__.
+1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
+```bash
+(https://github.com/aimannab10/OSProject-Git/blob/main/README.md)
+```
 2. How many files and folders are in this repository. ***(1 mark)*** __1 file and 1 folder__.
 
 
