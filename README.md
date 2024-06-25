@@ -414,6 +414,10 @@ root@f65be1987f84:~# nano helloworld.txt
 5. Edit your helloworld.txt, create your messsage and save by typing ctrl-X. Once saved, explore using the container to see where the file is located. Then exit the shell, by typing **exit**.
 
 6. Stop the container and run **docker ps -a**, and restart the container again. Is your file in the container still available?
+```bash
+Yes, the file in the container still available
+```
+
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
 
@@ -424,7 +428,10 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 @joeynor ➜ /workspaces/OSProject (main) $ docker restart romantic_jackson
 ```
 
-7. Stop the container and delete the container. What happened to your helloworld.txt?
+7. Stop the container and delete the container. What happened to your helloworld.txt? 
+```bash
+The file is no longer available since it has been deleted from the container
+```
 
 ```bash 
 @joeynor ➜ /workspaces/OSProject (main) $ docker stop romantic_jackson
@@ -438,8 +445,15 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** 
+```bash
+Files in a container are not persistent. Any changes made to the file system during the container's runtime are lost when the container is stopped or removed.
+```
+
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** 
+```bash
+Yes. we can run multiple instance of debian linux simultaneously. Each container contain its own file system, network and processess. We can use different container names to distinguish each container.
+```
 
 ## Running your own container with persistent storage
 
@@ -458,7 +472,16 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
 ***Questions:***
 
-1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** __Fill answer here__.
+1. Check the permission of the files created in myroot, what user and group is the files created in docker container on the host virtual machine? . ***(2 mark)*** 
+```bash
+The file 'hello.txt' in docker container on the host virtual machine is owned by the 'root' user and belongs to the 'root' group.
+```
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git/myroot/myroot (main) $ ls -l /workspaces/OSProject/myroot
+total 0
+-rw-rw-rw- 1 root root 0 Jun 25 16:33 testfile.txt
+```
+
 2. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
 ```bash
 //use sudo and chown
