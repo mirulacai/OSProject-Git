@@ -77,12 +77,13 @@ codespace
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
 1. Run the command **pwd** . ***(1 mark)*** 
-
 ```bash 
 @aimannab10 ➜ /workspaces/OSProject-Git (main) $ pwd/workspaces/OSProject-Git
 ```
 
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ cat /etc/passwd
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -107,18 +108,24 @@ systemd-network:x:102:103:systemd Network Management,,,:/run/systemd:/usr/sbin/n
 systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
-sshd:x:105:65534::/run/sshd:/usr/sbin/nologin__.
+sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
+```
 
-3. Run the command **df** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ df
+3. Run the command **df** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10382716  20770864  34% /
 tmpfs              65536        0     65536   0% /dev
 shm                65536        0     65536   0% /dev/shm
 /dev/root       30298176 24388496   5893296  81% /vscode
 /dev/sda1       46127956       88  43752292   1% /tmp
-/dev/loop3      32847680 10382716  20770864  34% /workspaces__.
+/dev/loop3      32847680 10382716  20770864  34% /workspaces
+```
 
-4. Run the command **du** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ du
+4. Run the command **du** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ du
 4       ./.git/lfs/tmp
 8       ./.git/lfs
 12      ./.git/objects/33
@@ -214,10 +221,14 @@ shm                65536        0     65536   0% /dev/shm
 8       ./.git/info
 2708    ./.git
 1972    ./images
-4828    .__.
+4828    .
+```
 
-5. Run the command **ls** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls
-README.md  images__.
+5. Run the command **ls** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls
+README.md  images
+```
 
 6. Run the command **ls -asl** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls -asl
 total 40
