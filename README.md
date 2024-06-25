@@ -1,8 +1,8 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Git__. 
+Group Name: __Git__ 
 
-Section: __2__. 
+Section: __2__
 
 Team Mates:
 1. __Aiman Nabil Bin Johan__ and __2210205__
