@@ -76,7 +76,7 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** __```bash@aimannab10 ➜ /workspaces/OSProject-Git (main) $ pwd
+1. Run the command **pwd** . ***(1 mark)*** __```bash @aimannab10 ➜ /workspaces/OSProject-Git (main) $ pwd
 /workspaces/OSProject-Git```__.
 
 2. Run the command **cat /etc/passwd** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ cat /etc/passwd
