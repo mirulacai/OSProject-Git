@@ -26,9 +26,12 @@ Team Mates:
 
 1. What is the link of the fork OSProject in your repository. ***(1 mark)*** 
 ```bash
-(https://github.com/aimannab10/OSProject-Git/blob/main/README.md)
+https://github.com/aimannab10/OSProject-Git/blob/main/README.md
 ```
-2. How many files and folders are in this repository. ***(1 mark)*** __1 file and 1 folder__.
+2. How many files and folders are in this repository. ***(1 mark)*** 
+```bash
+1 file and 1 folder
+```
 
 
 ## Exploring github codespaces
@@ -60,9 +63,18 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Linux-based distribution, typically Ubuntu__.
-2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Option 1 is 2 cores, 4 GB RAM, 32 GB SSD and option 2 is 4 cores, 8 GB RAM, 64 GB SSD__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __The changes are save and versioned allow to keep track modifications over time. This ensure backup of the work are safeguarded against data loss due to failures__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)***
+```bash
+Linux-based distribution, typically Ubuntu
+```
+2. What are the two options of ram, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** 
+```bash
+Option 1 is 2 cores, 4 GB RAM, 32 GB SSD and option 2 is 4 cores, 8 GB RAM, 64 GB SSD
+```
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** 
+```bash
+The changes are save and versioned allow to keep track modifications over time. This ensure backup of the work are safeguarded against data loss due to failures
+```
 
 ## Exploring the Terminal
 
@@ -333,19 +345,40 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6235.0 avail Mem
 Linux codespaces-97fe80 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
-11. What is the available free memory in the system. ***(1 mark)*** __6.1 GiB__.
+11. What is the available free memory in the system. ***(1 mark)*** 
+```bash
+6.1 GiB
+```
 
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20 GiB__.
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** 
+```bash
+20 GiB
+```
 
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux codespaces-97fe80 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** 
+```bash
+Linux codespaces-97fe80 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
 
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __'ls' lists files and directories in the current directory while 'ls -asl' provides a details listing that includes file permissions ownership, size in blocks and modification time__.
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** 
+```bash
+'ls' lists files and directories in the current directory while 'ls -asl' provides a details listing that includes file permissions ownership, size in blocks and modification time
+```
 
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** 
+```bash
+2560 4K pages
+```
 
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Processor 0 is 3012.583 MHz and Processor 1 is 3059.232 MHz__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** 
+```bash
+Processor 0 is 3012.583 MHz and Processor 1 is 3059.232 MHz
+```
 
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Process with PID 581 running the 'node' command using 1.7% CPU and 4.1% memory__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** 
+```bash
+Process with PID 581 running the 'node' command using 1.7% CPU and 4.1% memory
+```
 
 ## Running your own container instance.
 
