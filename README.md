@@ -230,20 +230,28 @@ shm                65536        0     65536   0% /dev/shm
 README.md  images
 ```
 
-6. Run the command **ls -asl** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls -asl
+6. Run the command **ls -asl** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls -asl
 total 40
  4 drwxrwxrwx+ 4 codespace root  4096 Jun 25 10:52 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun 25 08:59 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun 25 09:17 .git
 24 -rw-rw-rw-  1 codespace root 21906 Jun 25 10:52 README.md
- 4 drwxrwxrwx+ 2 codespace root  4096 Jun 25 08:59 images__.
+ 4 drwxrwxrwx+ 2 codespace root  4096 Jun 25 08:59 images
+ ```
 
-7. Run the command **free -h** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ free -h
+7. Run the command **free -h** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.3Gi       174Mi        63Mi       6.3Gi       6.1Gi
-Swap:            0B          0B          0B__.
+Swap:            0B          0B          0B
+```
 
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ cat /proc/cpuinfo
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -298,9 +306,12 @@ TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
-power management:__.
+power management:
+```
 
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __top - 10:56:08 up 28 min,  0 users,  load average: 0.53, 0.55, 0.47
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** 
+```bash
+top - 10:56:08 up 28 min,  0 users,  load average: 0.53, 0.55, 0.47
 Tasks:  17 total,   1 running,  16 sleeping,   0 stopped,   0 zombie
 %Cpu(s):  4.1 us,  5.1 sy,  0.0 ni, 90.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
 MiB Mem :   7929.6 total,    221.8 free,   1316.1 used,   6391.7 buff/cache
@@ -310,10 +321,14 @@ MiB Swap:      0.0 total,      0.0 free,      0.0 used.   6235.0 avail Mem
     581 codespa+  20   0   21.5g 331212  50048 S   1.7   4.1   0:15.08 node           
     559 codespa+  20   0 1322600  96744  45312 S   0.7   1.2   0:03.86 node           
    2741 codespa+  20   0 1108008  60236  42112 S   0.3   0.7   0:00.83 node           
-      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.02 docker-init __.
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.02 docker-init
+```
 
-10. Run the command **uname -a**. ***(1 mark)*** __@aimannab10 ➜ /workspaces/OSProject-Git (main) $ uname -a
-Linux codespaces-97fe80 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
+10. Run the command **uname -a**. ***(1 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ uname -a
+Linux codespaces-97fe80 6.5.0-1021-azure #22~22.04.1-Ubuntu SMP Tue Apr 30 16:08:18 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+```
 
 11. What is the available free memory in the system. ***(1 mark)*** __6.1 GiB__.
 
