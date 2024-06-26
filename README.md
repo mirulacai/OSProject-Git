@@ -30,7 +30,7 @@ https://github.com/aimannab10/OSProject-Git/blob/main/README.md
 ```
 2. How many files and folders are in this repository. ***(1 mark)*** 
 ```bash
-1 file and 1 folder
+1 file and 3 folder
 ```
 
 
