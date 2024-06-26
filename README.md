@@ -488,7 +488,11 @@ total 0
 sudo chown -R codespace:codespace myroot
 
 ```
-*** __Fill answer here__.***
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ ls -l /workspaces/OSProject/myroot
+total 0
+-rw-rw-rw- 1 root root 0 Jun 26 06:39 testfile.txt
+```
 
 ## You are on your own, create your own static webpage
 
@@ -514,9 +518,23 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)*** __Fill answer here__.
-3. What port is open for http protocol on the host machine? ***(1 mark)*** __Fill answer here__.
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** 
+```bash
+@aimannab10 ➜ /workspaces/OSProject-Git (main) $ docker exec -it 111337b18742 bash
+root@111337b18742:/usr/local/apache2# ls -ld /usr/local/apache2/htdocs
+drwxrwxrwx+ 2 root root 4096 Jun 26 06:46 /usr/local/apache2/htdocs
+
+Permission: drwxrwxrwx+
+Owner: Root
+```
+2. What port is the apache web server running. ***(1 mark)*** 
+```bash
+8080
+```
+3. What port is open for http protocol on the host machine? ***(1 mark)*** 
+```bash
+8080
+```
 
 ## Create SUB Networks
 
