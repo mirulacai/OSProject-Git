@@ -1221,6 +1221,9 @@ docker run --name mysql-container --network mysqlnet -e MYSQL_ROOT_PASSWORD=root
     ```sh
     docker build -t nodejs-app .
     ```
+    ```sh
+    docker build -t nodejs-app .
+    ```
 
 2. **Run the Node.js container on the same network as the MySQL container.**
 
